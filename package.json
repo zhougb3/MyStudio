@@ -1,0 +1,21 @@
+{
+  "name": "BOAT_Website",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "classnames": "^2.2.5",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.20.0",
+    "meteor-node-stubs": "^0.3.2",
+    "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "react-image-gallery": "^0.8.6",
+    "react-mounter": "^1.2.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.1"
+  }
+}

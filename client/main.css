@@ -1,0 +1,265 @@
+/* CSS declarations go here */
+
+.title-cover {
+    width: 100%;
+    height: 66%;
+    position: absolute;
+    background-image: url("image/PeopleTitleCover.jpg");
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title-text {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:0;
+    margin: auto;
+    height: 120px;
+}
+
+.people-list {
+    position: absolute;
+    top: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.people-container {
+    display: inline-block;
+    margin: 20px;
+    border-color: black;
+    
+    width: 400px;
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 4%;
+    box-shadow: 4px 4px 2px #888888;
+}
+
+.people-icon {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 50px 50px 0 50px;
+}
+
+.people-name {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+.people-gender {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+}
+
+.people-age {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+
+.app-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-title-cover {
+  width: 100%;
+  height: 100%;
+  height: 600px;
+  background-size: 100%;
+  color: white;
+}
+
+.app-cover-glass {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcom {
+  margin-bottom: 1em;
+}
+
+.app-slogan {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.line {
+  width: 50%;
+  height: 4px;
+  background-color: palevioletred;
+  margin-top: 0.5em;
+}
+
+.brief-intro {
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+.go-back {
+  align-self: flex-start;
+  background-color: darkgrey;
+  border: 0;
+  width: 100px;
+  height: 30px;
+  left: 100px;
+  position: relative;
+  outline: 0;
+}
+
+.app-demo {
+  display: inline-flex;
+}
+
+.app-info {
+  width: 35%;
+  position: relative;
+  left: 200px;
+  top: 160px;
+}
+
+.info-title {
+  font-size: 2em;
+  color: black;
+}
+
+.app-info-line {
+  width: 220px;
+  height: 2px;
+  background-color: palevioletred;
+}
+
+.info-content {
+  position: relative;
+  top: 10px;
+  font-size: 1em;
+  color: black;
+}
+
+#iPhone-frame {
+  align-self: flex-end;
+  position: relative;
+  left: -80px;
+}
+
+.image-gallery-image img {
+  transform: scale(0.715);
+}
+
+.image-gallery {
+  position: relative;
+  left: 379px;
+  top: 20px;
+}
+
+.image-gallery-bullets-container {
+  position: relative;
+  top: -82px;
+}
+
+.overflow-image-cover {
+  height: 650px;
+  width: 50px;
+  background-color: white;
+  position: relative;
+  top: 44px;
+}
+
+.overflow-image-cover-1 {
+  left: -24px;
+}
+
+.overflow-image-cover-2 {
+  left: 292px;
+}
+
+.appintro-enter {
+  opacity: 0.01;
+}
+ 
+.appintro-enter.appintro-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.appintro-leave {
+  opacity: 1;
+}
+
+.appintro-leave.appintro-leave-active {
+  opacity: 0.01;
+  transition: opacity 0ms ease-in;
+}
+
+
+.peoples-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.people-title-cover {
+  width: 100%;
+  height: 100%;
+  height: 600px;
+  background-size: 100%;
+  color: white;
+}
+
+.people-cover-glass {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.people-slogan {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.people-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.people-card {
+  width: 360px;
+}
